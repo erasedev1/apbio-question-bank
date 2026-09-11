@@ -1,43 +1,66 @@
 # AP Bio Question Bank
 
-Structured extraction of **3,707 multiple-choice questions** from
+**3,707 multiple-choice questions** extracted from
 `vdoc.pub_campbell-biology-test-bank-11-edition.pdf` (Campbell Biology, 11e — Urry;
-Test Bank, 1,243 pages), tagged by chapter and topic.
+Test Bank, 1,243 pages), tagged by chapter and topic, with all **492 figures**
+recovered — plus a static practice site.
 
 > The source PDF is © 2017 Pearson Education, Inc. This repository is private;
 > the extracted data carries the same copyright as the original and is not
 > redistributable.
 
-## Files
+## The practice site
+
+Open `site/index.html` — no build step and no server needed (the data loads as a
+plain `<script>`, so `file://` works). To serve it instead:
+
+```bash
+cd site && python3 -m http.server 8000
+```
+
+One setup screen: pick chapters (or expand any chapter to pick individual topics),
+choose how many questions, pick a mode, start.
+
+- **Practice** — the answer is revealed the moment you pick one
+- **Exam** — no feedback until the end, and you can change an answer before advancing
+
+Questions are drawn at random from your selection. Answer choices are *not* shuffled,
+because in figure questions the letters refer to labels printed in the image. Keyboard:
+`A`–`D` or `1`–`4` to answer, `Enter`/`→` to advance. The site keeps no state — every
+visit starts clean.
 
 | Path | Description |
 |---|---|
-| `data/questions.json` | The full question bank (3.8 MB) |
+| `site/index.html`, `site/style.css`, `site/app.js` | The site — vanilla HTML/CSS/JS, no dependencies |
+| `site/data/questions.js` | Site payload, 1.9 MB (449 KB gzipped) |
+| `site/images/` | 492 figures (18 MB) |
+
+## The dataset
+
+| Path | Description |
+|---|---|
+| `data/questions.json` | Full question bank |
 | `data/chapters.json` | Chapter/topic index with question counts |
-| `scripts/extract.py` | Dumps per-page text from the PDF to `pages.json` |
-| `scripts/parse.py` | Parses `pages.json` into raw question records |
-| `scripts/build.py` | Normalizes, tags, and emits the final JSON |
+| `scripts/` | The extraction pipeline (see *Reproducing*) |
 
-## Tagging
+### Tagging
 
-Both tags are taken **verbatim from the PDF's own structure** — nothing is inferred
-from outside the document.
+Both tags come **verbatim from the PDF's own structure** — nothing is inferred from
+outside the document.
 
 - **Chapter** — from the `Chapter N <title>` headings. 56 chapters.
-- **Topic** — from each question's `Section: N.N` field, which is the textbook
-  section the question maps to. 268 distinct topics.
+- **Topic** — from each question's `Section: N.N` field, the textbook section it maps
+  to. 268 topics.
 
-Questions printed under a chapter's *Student Edition End-of-Chapter Questions*
-heading carry no `Section:` field in the source. They are tagged
-`topic.scope = "chapter_review"` with `topic.section = null`, rather than being
-assigned a section they don't claim.
+Questions under a chapter's *Student Edition End-of-Chapter Questions* heading carry no
+`Section:` field in the source. They are tagged `topic.scope = "chapter_review"` with
+`topic.section = null` rather than being assigned a section they don't claim.
 
-**Note on topic names:** this test bank references sections by *number* only —
-section titles (e.g. "1.1 The study of life reveals common themes") appear nowhere
-in the PDF. Topics are therefore identified by section number. Adding human-readable
-titles would require the textbook's table of contents, which is not in this source.
+**Topic names:** this test bank references sections by *number* only — section titles
+(e.g. "1.1 The study of life reveals common themes") appear nowhere in the PDF. Adding
+them would require the textbook's table of contents, which is not in this source.
 
-## Record shape
+### Record shape
 
 ```json
 {
@@ -46,75 +69,90 @@ titles would require the textbook's table of contents, which is not in this sour
  "topic": { "section": "1.1", "scope": "section" },
  "question_type": "multiple_choice",
  "number_in_section": 4,
- "stem": "To understand the chemical basis of inheritance, we must understand the molecular structure of DNA. This is an example of the application of which concept to the study of biology?",
+ "stem": "To understand the chemical basis of inheritance, we must understand ...",
  "choices": { "A": "evolution", "B": "emergent properties", "C": "reductionism", "D": "feedback regulation" },
  "answer": "C",
  "answer_text": "reductionism",
  "bloom_taxonomy": "Application/Analysis",
  "source_page": 2,
- "flags": {
-  "references_figure": false,
-  "choices_are_images": false,
-  "shared_stimulus_id": null,
-  "shared_stimulus_link_inferred": false
- }
+ "images": [],
+ "shared_images": [],
+ "choice_images": {},
+ "flags": { "references_figure": false, "choices_are_images": false, "has_image": false, "image_inherited": false }
 }
 ```
 
 `id` is stable and unique: `ch<chapter>-<mc|eoc>-<number>`. Question numbering restarts
 within each subsection in the source, so the chapter and type prefixes are load-bearing.
 
-## Contents
+### Contents
 
 - **3,707** questions — 3,354 section-tagged multiple-choice, 353 chapter-review
 - **56** chapters, **268** topics
-- All questions are 4-option multiple choice except 4 with five options and 4 with three
-- `bloom_taxonomy` is preserved from the source: `Knowledge/Comprehension`,
+- All 4-option multiple choice except 4 with five options and 4 with three
+- `bloom_taxonomy` preserved from the source: `Knowledge/Comprehension`,
   `Application/Analysis`, or `Synthesis/Evaluation`
 
-## Known limitations
+## Figures
 
-These are properties of the source PDF, not extraction failures. Each is flagged in
-the data so it can be filtered.
+All 493 embedded images were located by position and matched to the question whose text
+region contains them (one — the cover — was discarded). They are cropped from the page at
+150 DPI and saved as palette PNG, or JPEG where that is smaller. **458 questions carry at
+least one image.**
 
-1. **Figures are not extracted** (`references_figure`, 345 questions). The PDF's
-   diagrams, graphs, and micrographs are images. Question text is complete, but a
-   question asking "which component in the accompanying figure…" cannot be answered
-   from the JSON alone. Page numbers are recorded so the figure can be looked up.
+Three fields, because a figure can belong to a question in three different ways:
 
-2. **21 questions have image-only answer choices** (`choices_are_images`). Their
-   options are pictures — e.g. "Which one of the atoms shown would be most likely to
-   form a cation with a charge of +1?" Choice keys and the answer letter are correct,
-   but choice *text* is empty because none exists in the source.
+- `images` — figures printed inside the question's own span. 376 questions.
+- `choice_images` — the answer *options* are pictures, mapped `{"A": img, "B": img, …}`.
+  18 questions. These are the ones whose `choices` text is empty, because none exists in
+  the PDF.
+- `shared_images` — a figure introduced above the question and shared across a group
+  (a periodic table, a labeled cell membrane, a phylogenetic tree), or one belonging to
+  a nearby question in the same section. 64 questions. Inheritance is bounded by
+  chapter, type, and section, and flagged with `image_inherited: true`.
 
-3. **Shared stimulus blocks** (`shared_stimuli`, 11 blocks). Some questions are
-   introduced by a preamble covering several questions at once — a passage, a
-   periodic-table reference, or a matching key. All 11 blocks are preserved verbatim
-   at the top level of `questions.json`.
+Each image entry is `{file, w, h, page}`; `file` resolves against `site/images/`.
 
-   Which questions each block governs is **inferred**, not stated by the PDF: the
-   grouping is visually implied by figures we cannot read. Links are bounded by
-   chapter, question type, section, and the next stimulus block, and every link is
-   marked `shared_stimulus_link_inferred: true`. 76 questions carry a link. Treat it
-   as a hint; the authoritative grouping is the printed page.
+26 questions mention a "figure", "table", or "graph" and have no image attached. These
+were checked individually: nearly all are tables the PDF prints **as text**, so the data
+is already in the stem (e.g. `ch48-mc-017`), or false positives on wording like "table
+sugar". A handful in chapters 2–3 refer to a periodic table printed in an earlier
+section.
+
+## Shared stimulus blocks
+
+Eleven preamble blocks introduce groups of questions at once (a passage, a matching key,
+a figure reference). All are preserved verbatim in `shared_stimuli` at the top level of
+`data/questions.json`. Which questions each governs is **inferred** — the grouping is
+visually implied by figures that are images — so links are bounded by chapter, type, and
+section and marked `shared_stimulus_link_inferred: true`. Treat it as a hint; the
+authoritative grouping is the printed page.
 
 ## Verification
 
-The parser produced exactly **3,707** questions against **3,707** `Answer:` lines in
-the source — no question was dropped or invented. Also checked:
+The parser produced exactly **3,707** questions against **3,707** `Answer:` lines in the
+source — nothing dropped or invented. Also checked:
 
-- A 400-question random sample round-trips: every stem and choice appears verbatim in
-  the PDF text (0 mismatches)
+- A 400-question random sample round-trips: every stem and choice appears verbatim in the
+  PDF text (0 mismatches)
 - Every question's answer letter exists among its choices (3,707/3,707)
 - Zero metadata leakage — no stem or choice contains `Answer:`, `Bloom's Taxonomy:`,
   `Section:`, or the running page title
-- All IDs unique; chapter index counts reconcile with the bank total
+- All 492 referenced image files exist on disk, with no orphans
+- The site was driven end-to-end in headless Chromium: chapter and topic selection,
+  filtering, partial-selection state, a full 68-question practice run, a full 61-question
+  exam run, image and image-choice rendering, keyboard input, ending a run early, and the
+  results review. No console or page errors.
 
 ## Reproducing
 
 ```bash
-python3 -m venv venv && ./venv/bin/pip install pypdf pdfplumber
-./venv/bin/python scripts/extract.py   # PDF   -> pages.json
-./venv/bin/python scripts/parse.py     # pages -> questions_raw.json + anomalies.json
-./venv/bin/python scripts/build.py     # raw   -> data/questions.json + data/chapters.json
+python3 -m venv venv && ./venv/bin/pip install pypdf pdfplumber pypdfium2
+./venv/bin/python scripts/extract.py        # PDF    -> pages.json
+./venv/bin/python scripts/parse.py          # pages  -> questions_raw.json + anomalies.json
+./venv/bin/python scripts/build.py          # raw    -> data/questions.json + data/chapters.json
+./venv/bin/python scripts/locate.py         # PDF    -> layout.json (question + image positions)
+./venv/bin/python scripts/render.py         # crops  -> site/images/
+./venv/bin/python scripts/merge_images.py   # images -> data/questions.json
+./venv/bin/python scripts/make_site_data.py # bank   -> site/data/questions.js
 ```
