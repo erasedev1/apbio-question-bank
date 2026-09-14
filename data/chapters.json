@@ -1,0 +1,1796 @@
+{
+ "chapters": [
+  {
+   "chapter_number": 1,
+   "chapter_title": "Evolution, the Themes of Biology, and Scientific Inquiry",
+   "question_count": 51,
+   "multiple_choice": 44,
+   "chapter_review": 7,
+   "topics": [
+    {
+     "section": "1.1",
+     "question_count": 11
+    },
+    {
+     "section": "1.2",
+     "question_count": 12
+    },
+    {
+     "section": "1.3",
+     "question_count": 18
+    },
+    {
+     "section": "1.4",
+     "question_count": 3
+    },
+    {
+     "section": "chapter_review",
+     "question_count": 7
+    }
+   ]
+  },
+  {
+   "chapter_number": 2,
+   "chapter_title": "The Chemical Context of Life",
+   "question_count": 61,
+   "multiple_choice": 53,
+   "chapter_review": 8,
+   "topics": [
+    {
+     "section": "2.1",
+     "question_count": 4
+    },
+    {
+     "section": "2.2",
+     "question_count": 19
+    },
+    {
+     "section": "2.3",
+     "question_count": 27
+    },
+    {
+     "section": "2.4",
+     "question_count": 3
+    },
+    {
+     "section": "chapter_review",
+     "question_count": 8
+    }
+   ]
+  },
+  {
+   "chapter_number": 3,
+   "chapter_title": "Water and Life",
+   "question_count": 55,
+   "multiple_choice": 50,
+   "chapter_review": 5,
+   "topics": [
+    {
+     "section": "3.1",
+     "question_count": 5
+    },
+    {
+     "section": "3.1 and 3.3",
+     "question_count": 1
+    },
+    {
+     "section": "3.2",
+     "question_count": 25
+    },
+    {
+     "section": "3.3",
+     "question_count": 19
+    },
+    {
+     "section": "chapter_review",
+     "question_count": 5
+    }
+   ]
+  },
+  {
+   "chapter_number": 4,
+   "chapter_title": "Carbon and the Molecular Diversity of Life",
+   "question_count": 58,
+   "multiple_choice": 52,
+   "chapter_review": 6,
+   "topics": [
+    {
+     "section": "4.1",
+     "question_count": 6
+    },
+    {
+     "section": "4.2",
+     "question_count": 23
+    },
+    {
+     "section": "4.3",
+     "question_count": 23
+    },
+    {
+     "section": "chapter_review",
+     "question_count": 6
+    }
+   ]
+  },
+  {
+   "chapter_number": 5,
+   "chapter_title": "The Structure and Function of Large Biological Molecules",
+   "question_count": 70,
+   "multiple_choice": 63,
+   "chapter_review": 7,
+   "topics": [
+    {
+     "section": "5.1",
+     "question_count": 4
+    },
+    {
+     "section": "5.2",
+     "question_count": 13
+    },
+    {
+     "section": "5.2 / 5.4",
+     "question_count": 1
+    },
+    {
+     "section": "5.3",
+     "question_count": 15
+    },
+    {
+     "section": "5.4",
+     "question_count": 15
+    },
+    {
+     "section": "5.5",
+     "question_count": 13
+    },
+    {
+     "section": "5.6",
+     "question_count": 2
+    },
+    {
+     "section": "chapter_review",
+     "question_count": 7
+    }
+   ]
+  },
+  {
+   "chapter_number": 6,
+   "chapter_title": "A Tour of the Cell",
+   "question_count": 66,
+   "multiple_choice": 61,
+   "chapter_review": 5,
+   "topics": [
+    {
+     "section": "6.1",
+     "question_count": 8
+    },
+    {
+     "section": "6.2",
+     "question_count": 10
+    },
+    {
+     "section": "6.3",
+     "question_count": 5
+    },
+    {
+     "section": "6.4",
+     "question_count": 10
+    },
+    {
+     "section": "6.5",
+     "question_count": 10
+    },
+    {
+     "section": "6.6",
+     "question_count": 10
+    },
+    {
+     "section": "6.7",
+     "question_count": 8
+    },
+    {
+     "section": "chapter_review",
+     "question_count": 5
+    }
+   ]
+  },
+  {
+   "chapter_number": 7,
+   "chapter_title": "Membrane Structure and Function",
+   "question_count": 68,
+   "multiple_choice": 63,
+   "chapter_review": 5,
+   "topics": [
+    {
+     "section": "7.1",
+     "question_count": 17
+    },
+    {
+     "section": "7.2",
+     "question_count": 6
+    },
+    {
+     "section": "7.3",
+     "question_count": 20
+    },
+    {
+     "section": "7.4",
+     "question_count": 12
+    },
+    {
+     "section": "7.5",
+     "question_count": 8
+    },
+    {
+     "section": "chapter_review",
+     "question_count": 5
+    }
+   ]
+  },
+  {
+   "chapter_number": 8,
+   "chapter_title": "An Introduction to Metabolism",
+   "question_count": 67,
+   "multiple_choice": 61,
+   "chapter_review": 6,
+   "topics": [
+    {
+     "section": "8.1",
+     "question_count": 14
+    },
+    {
+     "section": "8.2",
+     "question_count": 7
+    },
+    {
+     "section": "8.3",
+     "question_count": 9
+    },
+    {
+     "section": "8.4",
+     "question_count": 24
+    },
+    {
+     "section": "8.5",
+     "question_count": 7
+    },
+    {
+     "section": "chapter_review",
+     "question_count": 6
+    }
+   ]
+  },
+  {
+   "chapter_number": 9,
+   "chapter_title": "Cellular Respiration and Fermentation",
+   "question_count": 68,
+   "multiple_choice": 61,
+   "chapter_review": 7,
+   "topics": [
+    {
+     "section": "9.1",
+     "question_count": 10
+    },
+    {
+     "section": "9.2",
+     "question_count": 5
+    },
+    {
+     "section": "9.3",
+     "question_count": 11
+    },
+    {
+     "section": "9.4",
+     "question_count": 19
+    },
+    {
+     "section": "9.5",
+     "question_count": 8
+    },
+    {
+     "section": "9.6",
+     "question_count": 8
+    },
+    {
+     "section": "chapter_review",
+     "question_count": 7
+    }
+   ]
+  },
+  {
+   "chapter_number": 10,
+   "chapter_title": "Photosynthesis",
+   "question_count": 65,
+   "multiple_choice": 58,
+   "chapter_review": 7,
+   "topics": [
+    {
+     "section": "10.1",
+     "question_count": 8
+    },
+    {
+     "section": "10.2",
+     "question_count": 33
+    },
+    {
+     "section": "10.3",
+     "question_count": 8
+    },
+    {
+     "section": "10.4",
+     "question_count": 9
+    },
+    {
+     "section": "chapter_review",
+     "question_count": 7
+    }
+   ]
+  },
+  {
+   "chapter_number": 11,
+   "chapter_title": "Cell Communication",
+   "question_count": 65,
+   "multiple_choice": 58,
+   "chapter_review": 7,
+   "topics": [
+    {
+     "section": "11.1",
+     "question_count": 10
+    },
+    {
+     "section": "11.2",
+     "question_count": 16
+    },
+    {
+     "section": "11.3",
+     "question_count": 21
+    },
+    {
+     "section": "11.4",
+     "question_count": 5
+    },
+    {
+     "section": "11.5",
+     "question_count": 6
+    },
+    {
+     "section": "chapter_review",
+     "question_count": 7
+    }
+   ]
+  },
+  {
+   "chapter_number": 12,
+   "chapter_title": "The Cell Cycle",
+   "question_count": 66,
+   "multiple_choice": 58,
+   "chapter_review": 8,
+   "topics": [
+    {
+     "section": "12.1",
+     "question_count": 2
+    },
+    {
+     "section": "12.2",
+     "question_count": 36
+    },
+    {
+     "section": "12.3",
+     "question_count": 20
+    },
+    {
+     "section": "chapter_review",
+     "question_count": 8
+    }
+   ]
+  },
+  {
+   "chapter_number": 13,
+   "chapter_title": "Meiosis and Sexual Life Cycles",
+   "question_count": 64,
+   "multiple_choice": 59,
+   "chapter_review": 5,
+   "topics": [
+    {
+     "section": "13.1",
+     "question_count": 3
+    },
+    {
+     "section": "13.2",
+     "question_count": 18
+    },
+    {
+     "section": "13.3",
+     "question_count": 29
+    },
+    {
+     "section": "13.4",
+     "question_count": 9
+    },
+    {
+     "section": "chapter_review",
+     "question_count": 5
+    }
+   ]
+  },
+  {
+   "chapter_number": 14,
+   "chapter_title": "Mendel and the Gene Idea",
+   "question_count": 62,
+   "multiple_choice": 62,
+   "chapter_review": 0,
+   "topics": [
+    {
+     "section": "14.1",
+     "question_count": 22
+    },
+    {
+     "section": "14.2",
+     "question_count": 12
+    },
+    {
+     "section": "14.3",
+     "question_count": 19
+    },
+    {
+     "section": "14.4",
+     "question_count": 9
+    }
+   ]
+  },
+  {
+   "chapter_number": 15,
+   "chapter_title": "The Chromosomal Basis of Inheritance",
+   "question_count": 58,
+   "multiple_choice": 58,
+   "chapter_review": 0,
+   "topics": [
+    {
+     "section": "15.1",
+     "question_count": 2
+    },
+    {
+     "section": "15.2",
+     "question_count": 20
+    },
+    {
+     "section": "15.3",
+     "question_count": 17
+    },
+    {
+     "section": "15.4",
+     "question_count": 14
+    },
+    {
+     "section": "15.5",
+     "question_count": 5
+    }
+   ]
+  },
+  {
+   "chapter_number": 16,
+   "chapter_title": "The Molecular Basis of Inheritance",
+   "question_count": 65,
+   "multiple_choice": 57,
+   "chapter_review": 8,
+   "topics": [
+    {
+     "section": "16.1",
+     "question_count": 13
+    },
+    {
+     "section": "16.2",
+     "question_count": 37
+    },
+    {
+     "section": "16.3",
+     "question_count": 7
+    },
+    {
+     "section": "chapter_review",
+     "question_count": 8
+    }
+   ]
+  },
+  {
+   "chapter_number": 17,
+   "chapter_title": "Gene Expression: From Gene to Protein",
+   "question_count": 67,
+   "multiple_choice": 60,
+   "chapter_review": 7,
+   "topics": [
+    {
+     "section": "17.1",
+     "question_count": 18
+    },
+    {
+     "section": "17.2",
+     "question_count": 4
+    },
+    {
+     "section": "17.3",
+     "question_count": 9
+    },
+    {
+     "section": "17.4",
+     "question_count": 20
+    },
+    {
+     "section": "17.5",
+     "question_count": 9
+    },
+    {
+     "section": "chapter_review",
+     "question_count": 7
+    }
+   ]
+  },
+  {
+   "chapter_number": 18,
+   "chapter_title": "Regulation of Gene Expression",
+   "question_count": 66,
+   "multiple_choice": 56,
+   "chapter_review": 10,
+   "topics": [
+    {
+     "section": "18.1",
+     "question_count": 18
+    },
+    {
+     "section": "18.2",
+     "question_count": 13
+    },
+    {
+     "section": "18.3",
+     "question_count": 7
+    },
+    {
+     "section": "18.4",
+     "question_count": 10
+    },
+    {
+     "section": "18.5",
+     "question_count": 8
+    },
+    {
+     "section": "chapter_review",
+     "question_count": 10
+    }
+   ]
+  },
+  {
+   "chapter_number": 19,
+   "chapter_title": "Viruses",
+   "question_count": 54,
+   "multiple_choice": 49,
+   "chapter_review": 5,
+   "topics": [
+    {
+     "section": "19.1",
+     "question_count": 4
+    },
+    {
+     "section": "19.2",
+     "question_count": 26
+    },
+    {
+     "section": "19.3",
+     "question_count": 19
+    },
+    {
+     "section": "chapter_review",
+     "question_count": 5
+    }
+   ]
+  },
+  {
+   "chapter_number": 20,
+   "chapter_title": "DNA Tools and Biotechnology",
+   "question_count": 57,
+   "multiple_choice": 49,
+   "chapter_review": 8,
+   "topics": [
+    {
+     "section": "20.1",
+     "question_count": 18
+    },
+    {
+     "section": "20.2",
+     "question_count": 10
+    },
+    {
+     "section": "20.3",
+     "question_count": 10
+    },
+    {
+     "section": "20.4",
+     "question_count": 11
+    },
+    {
+     "section": "chapter_review",
+     "question_count": 8
+    }
+   ]
+  },
+  {
+   "chapter_number": 21,
+   "chapter_title": "Genomes and Their Evolution",
+   "question_count": 44,
+   "multiple_choice": 41,
+   "chapter_review": 3,
+   "topics": [
+    {
+     "section": "21.1",
+     "question_count": 3
+    },
+    {
+     "section": "21.2",
+     "question_count": 11
+    },
+    {
+     "section": "21.3",
+     "question_count": 5
+    },
+    {
+     "section": "21.4",
+     "question_count": 6
+    },
+    {
+     "section": "21.5",
+     "question_count": 8
+    },
+    {
+     "section": "21.6",
+     "question_count": 8
+    },
+    {
+     "section": "chapter_review",
+     "question_count": 3
+    }
+   ]
+  },
+  {
+   "chapter_number": 22,
+   "chapter_title": "Descent with Modification: A Darwinian View of Life",
+   "question_count": 60,
+   "multiple_choice": 55,
+   "chapter_review": 5,
+   "topics": [
+    {
+     "section": "22.1",
+     "question_count": 9
+    },
+    {
+     "section": "22.2",
+     "question_count": 23
+    },
+    {
+     "section": "22.3",
+     "question_count": 23
+    },
+    {
+     "section": "chapter_review",
+     "question_count": 5
+    }
+   ]
+  },
+  {
+   "chapter_number": 23,
+   "chapter_title": "The Evolution of Populations",
+   "question_count": 64,
+   "multiple_choice": 59,
+   "chapter_review": 5,
+   "topics": [
+    {
+     "section": "23.1",
+     "question_count": 9
+    },
+    {
+     "section": "23.2",
+     "question_count": 18
+    },
+    {
+     "section": "23.3",
+     "question_count": 12
+    },
+    {
+     "section": "23.4",
+     "question_count": 20
+    },
+    {
+     "section": "chapter_review",
+     "question_count": 5
+    }
+   ]
+  },
+  {
+   "chapter_number": 24,
+   "chapter_title": "The Origin of Species",
+   "question_count": 67,
+   "multiple_choice": 61,
+   "chapter_review": 6,
+   "topics": [
+    {
+     "section": "24.1",
+     "question_count": 20
+    },
+    {
+     "section": "24.2",
+     "question_count": 23
+    },
+    {
+     "section": "24.3",
+     "question_count": 13
+    },
+    {
+     "section": "24.4",
+     "question_count": 5
+    },
+    {
+     "section": "chapter_review",
+     "question_count": 6
+    }
+   ]
+  },
+  {
+   "chapter_number": 25,
+   "chapter_title": "The History of Life on Earth",
+   "question_count": 59,
+   "multiple_choice": 52,
+   "chapter_review": 7,
+   "topics": [
+    {
+     "section": "25.1",
+     "question_count": 8
+    },
+    {
+     "section": "25.2",
+     "question_count": 8
+    },
+    {
+     "section": "25.3",
+     "question_count": 10
+    },
+    {
+     "section": "25.4",
+     "question_count": 10
+    },
+    {
+     "section": "25.5",
+     "question_count": 13
+    },
+    {
+     "section": "25.6",
+     "question_count": 3
+    },
+    {
+     "section": "chapter_review",
+     "question_count": 7
+    }
+   ]
+  },
+  {
+   "chapter_number": 26,
+   "chapter_title": "Phylogeny and the Tree of Life",
+   "question_count": 75,
+   "multiple_choice": 68,
+   "chapter_review": 7,
+   "topics": [
+    {
+     "section": "26.1",
+     "question_count": 10
+    },
+    {
+     "section": "26.2",
+     "question_count": 10
+    },
+    {
+     "section": "26.3",
+     "question_count": 23
+    },
+    {
+     "section": "26.4",
+     "question_count": 7
+    },
+    {
+     "section": "26.5",
+     "question_count": 5
+    },
+    {
+     "section": "26.6",
+     "question_count": 13
+    },
+    {
+     "section": "chapter_review",
+     "question_count": 7
+    }
+   ]
+  },
+  {
+   "chapter_number": 27,
+   "chapter_title": "Bacteria and Archaea",
+   "question_count": 75,
+   "multiple_choice": 69,
+   "chapter_review": 6,
+   "topics": [
+    {
+     "section": "26.6; 27.2",
+     "question_count": 1
+    },
+    {
+     "section": "27.1",
+     "question_count": 14
+    },
+    {
+     "section": "27.2",
+     "question_count": 20
+    },
+    {
+     "section": "27.2 and 27.4",
+     "question_count": 1
+    },
+    {
+     "section": "27.3",
+     "question_count": 11
+    },
+    {
+     "section": "27.4",
+     "question_count": 12
+    },
+    {
+     "section": "27.5",
+     "question_count": 5
+    },
+    {
+     "section": "27.6",
+     "question_count": 5
+    },
+    {
+     "section": "chapter_review",
+     "question_count": 6
+    }
+   ]
+  },
+  {
+   "chapter_number": 28,
+   "chapter_title": "Protists",
+   "question_count": 79,
+   "multiple_choice": 73,
+   "chapter_review": 6,
+   "topics": [
+    {
+     "section": "28.1",
+     "question_count": 8
+    },
+    {
+     "section": "28.2",
+     "question_count": 10
+    },
+    {
+     "section": "28.3",
+     "question_count": 34
+    },
+    {
+     "section": "28.3, 28.4",
+     "question_count": 1
+    },
+    {
+     "section": "28.4",
+     "question_count": 7
+    },
+    {
+     "section": "28.5",
+     "question_count": 7
+    },
+    {
+     "section": "28.6",
+     "question_count": 6
+    },
+    {
+     "section": "chapter_review",
+     "question_count": 6
+    }
+   ]
+  },
+  {
+   "chapter_number": 29,
+   "chapter_title": "Plant Diversity I: How Plants Colonized Land",
+   "question_count": 82,
+   "multiple_choice": 77,
+   "chapter_review": 5,
+   "topics": [
+    {
+     "section": "29.0",
+     "question_count": 1
+    },
+    {
+     "section": "29.1",
+     "question_count": 30
+    },
+    {
+     "section": "29.2",
+     "question_count": 23
+    },
+    {
+     "section": "29.3",
+     "question_count": 23
+    },
+    {
+     "section": "chapter_review",
+     "question_count": 5
+    }
+   ]
+  },
+  {
+   "chapter_number": 30,
+   "chapter_title": "Plant Diversity II: The Evolution of Seed Plants",
+   "question_count": 80,
+   "multiple_choice": 75,
+   "chapter_review": 5,
+   "topics": [
+    {
+     "section": "30.1",
+     "question_count": 14
+    },
+    {
+     "section": "30.2",
+     "question_count": 11
+    },
+    {
+     "section": "30.3",
+     "question_count": 39
+    },
+    {
+     "section": "30.4",
+     "question_count": 11
+    },
+    {
+     "section": "chapter_review",
+     "question_count": 5
+    }
+   ]
+  },
+  {
+   "chapter_number": 31,
+   "chapter_title": "Fungi",
+   "question_count": 75,
+   "multiple_choice": 71,
+   "chapter_review": 4,
+   "topics": [
+    {
+     "section": "31.1",
+     "question_count": 25
+    },
+    {
+     "section": "31.2",
+     "question_count": 7
+    },
+    {
+     "section": "31.3",
+     "question_count": 5
+    },
+    {
+     "section": "31.4",
+     "question_count": 22
+    },
+    {
+     "section": "31.5",
+     "question_count": 12
+    },
+    {
+     "section": "chapter_review",
+     "question_count": 4
+    }
+   ]
+  },
+  {
+   "chapter_number": 32,
+   "chapter_title": "An Overview of Animal Diversity",
+   "question_count": 67,
+   "multiple_choice": 63,
+   "chapter_review": 4,
+   "topics": [
+    {
+     "section": "32.1",
+     "question_count": 10
+    },
+    {
+     "section": "32.2",
+     "question_count": 11
+    },
+    {
+     "section": "32.3",
+     "question_count": 24
+    },
+    {
+     "section": "32.4",
+     "question_count": 18
+    },
+    {
+     "section": "chapter_review",
+     "question_count": 4
+    }
+   ]
+  },
+  {
+   "chapter_number": 33,
+   "chapter_title": "An Introduction to Invertebrates",
+   "question_count": 83,
+   "multiple_choice": 77,
+   "chapter_review": 6,
+   "topics": [
+    {
+     "section": "33.0",
+     "question_count": 4
+    },
+    {
+     "section": "33.1",
+     "question_count": 5
+    },
+    {
+     "section": "33.2",
+     "question_count": 8
+    },
+    {
+     "section": "33.3",
+     "question_count": 30
+    },
+    {
+     "section": "33.4",
+     "question_count": 23
+    },
+    {
+     "section": "33.5",
+     "question_count": 7
+    },
+    {
+     "section": "chapter_review",
+     "question_count": 6
+    }
+   ]
+  },
+  {
+   "chapter_number": 34,
+   "chapter_title": "The Origin and Evolution of Vertebrates",
+   "question_count": 82,
+   "multiple_choice": 76,
+   "chapter_review": 6,
+   "topics": [
+    {
+     "section": "34.1",
+     "question_count": 9
+    },
+    {
+     "section": "34.2",
+     "question_count": 4
+    },
+    {
+     "section": "34.3",
+     "question_count": 15
+    },
+    {
+     "section": "34.4",
+     "question_count": 8
+    },
+    {
+     "section": "34.5",
+     "question_count": 18
+    },
+    {
+     "section": "34.6",
+     "question_count": 9
+    },
+    {
+     "section": "34.7",
+     "question_count": 13
+    },
+    {
+     "section": "chapter_review",
+     "question_count": 6
+    }
+   ]
+  },
+  {
+   "chapter_number": 35,
+   "chapter_title": "Vascular Plant Structure, Growth, and Development",
+   "question_count": 65,
+   "multiple_choice": 58,
+   "chapter_review": 7,
+   "topics": [
+    {
+     "section": "35.1",
+     "question_count": 16
+    },
+    {
+     "section": "35.2",
+     "question_count": 11
+    },
+    {
+     "section": "35.3",
+     "question_count": 19
+    },
+    {
+     "section": "35.4",
+     "question_count": 8
+    },
+    {
+     "section": "35.5",
+     "question_count": 4
+    },
+    {
+     "section": "chapter_review",
+     "question_count": 7
+    }
+   ]
+  },
+  {
+   "chapter_number": 36,
+   "chapter_title": "Resource Acquisition and Transport in Vascular Plants",
+   "question_count": 74,
+   "multiple_choice": 66,
+   "chapter_review": 8,
+   "topics": [
+    {
+     "section": "36.1",
+     "question_count": 8
+    },
+    {
+     "section": "36.2",
+     "question_count": 20
+    },
+    {
+     "section": "36.3",
+     "question_count": 13
+    },
+    {
+     "section": "36.4",
+     "question_count": 14
+    },
+    {
+     "section": "36.5",
+     "question_count": 8
+    },
+    {
+     "section": "36.6",
+     "question_count": 3
+    },
+    {
+     "section": "chapter_review",
+     "question_count": 8
+    }
+   ]
+  },
+  {
+   "chapter_number": 37,
+   "chapter_title": "Soil and Plant Nutrition",
+   "question_count": 52,
+   "multiple_choice": 43,
+   "chapter_review": 9,
+   "topics": [
+    {
+     "section": "37.1",
+     "question_count": 14
+    },
+    {
+     "section": "37.2",
+     "question_count": 14
+    },
+    {
+     "section": "37.3",
+     "question_count": 15
+    },
+    {
+     "section": "chapter_review",
+     "question_count": 9
+    }
+   ]
+  },
+  {
+   "chapter_number": 38,
+   "chapter_title": "Angiosperm Reproduction and Biotechnology",
+   "question_count": 60,
+   "multiple_choice": 53,
+   "chapter_review": 7,
+   "topics": [
+    {
+     "section": "38.1",
+     "question_count": 36
+    },
+    {
+     "section": "38.2",
+     "question_count": 9
+    },
+    {
+     "section": "38.3",
+     "question_count": 8
+    },
+    {
+     "section": "chapter_review",
+     "question_count": 7
+    }
+   ]
+  },
+  {
+   "chapter_number": 39,
+   "chapter_title": "Plant Responses to Internal and External Signals",
+   "question_count": 61,
+   "multiple_choice": 54,
+   "chapter_review": 7,
+   "topics": [
+    {
+     "section": "39.1",
+     "question_count": 5
+    },
+    {
+     "section": "39.2",
+     "question_count": 26
+    },
+    {
+     "section": "39.3",
+     "question_count": 11
+    },
+    {
+     "section": "39.4",
+     "question_count": 6
+    },
+    {
+     "section": "39.5",
+     "question_count": 6
+    },
+    {
+     "section": "chapter_review",
+     "question_count": 7
+    }
+   ]
+  },
+  {
+   "chapter_number": 40,
+   "chapter_title": "Basic Principles of Animal Form and Function",
+   "question_count": 68,
+   "multiple_choice": 61,
+   "chapter_review": 7,
+   "topics": [
+    {
+     "section": "40.1",
+     "question_count": 27
+    },
+    {
+     "section": "40.2",
+     "question_count": 9
+    },
+    {
+     "section": "40.2 / 40.3",
+     "question_count": 1
+    },
+    {
+     "section": "40.3",
+     "question_count": 15
+    },
+    {
+     "section": "40.4",
+     "question_count": 9
+    },
+    {
+     "section": "chapter_review",
+     "question_count": 7
+    }
+   ]
+  },
+  {
+   "chapter_number": 41,
+   "chapter_title": "Animal Nutrition",
+   "question_count": 64,
+   "multiple_choice": 57,
+   "chapter_review": 7,
+   "topics": [
+    {
+     "section": "41.1",
+     "question_count": 6
+    },
+    {
+     "section": "41.2",
+     "question_count": 8
+    },
+    {
+     "section": "41.3",
+     "question_count": 24
+    },
+    {
+     "section": "41.4",
+     "question_count": 9
+    },
+    {
+     "section": "41.5",
+     "question_count": 10
+    },
+    {
+     "section": "chapter_review",
+     "question_count": 7
+    }
+   ]
+  },
+  {
+   "chapter_number": 42,
+   "chapter_title": "Circulation and Gas Exchange",
+   "question_count": 67,
+   "multiple_choice": 60,
+   "chapter_review": 7,
+   "topics": [
+    {
+     "section": "42.1",
+     "question_count": 8
+    },
+    {
+     "section": "42.2",
+     "question_count": 9
+    },
+    {
+     "section": "42.3",
+     "question_count": 11
+    },
+    {
+     "section": "42.4",
+     "question_count": 7
+    },
+    {
+     "section": "42.5",
+     "question_count": 14
+    },
+    {
+     "section": "42.6",
+     "question_count": 5
+    },
+    {
+     "section": "42.7",
+     "question_count": 6
+    },
+    {
+     "section": "chapter_review",
+     "question_count": 7
+    }
+   ]
+  },
+  {
+   "chapter_number": 43,
+   "chapter_title": "The Immune System",
+   "question_count": 69,
+   "multiple_choice": 62,
+   "chapter_review": 7,
+   "topics": [
+    {
+     "section": "43.1",
+     "question_count": 15
+    },
+    {
+     "section": "43.2",
+     "question_count": 18
+    },
+    {
+     "section": "43.3",
+     "question_count": 22
+    },
+    {
+     "section": "43.4",
+     "question_count": 7
+    },
+    {
+     "section": "chapter_review",
+     "question_count": 7
+    }
+   ]
+  },
+  {
+   "chapter_number": 44,
+   "chapter_title": "Osmoregulation and Excretion",
+   "question_count": 64,
+   "multiple_choice": 58,
+   "chapter_review": 6,
+   "topics": [
+    {
+     "section": "44.1",
+     "question_count": 13
+    },
+    {
+     "section": "44.2",
+     "question_count": 12
+    },
+    {
+     "section": "44.3",
+     "question_count": 14
+    },
+    {
+     "section": "44.4",
+     "question_count": 12
+    },
+    {
+     "section": "44.5",
+     "question_count": 7
+    },
+    {
+     "section": "chapter_review",
+     "question_count": 6
+    }
+   ]
+  },
+  {
+   "chapter_number": 45,
+   "chapter_title": "Hormones and the Endocrine System",
+   "question_count": 66,
+   "multiple_choice": 59,
+   "chapter_review": 7,
+   "topics": [
+    {
+     "section": "45.1",
+     "question_count": 21
+    },
+    {
+     "section": "45.2",
+     "question_count": 17
+    },
+    {
+     "section": "45.3",
+     "question_count": 21
+    },
+    {
+     "section": "chapter_review",
+     "question_count": 7
+    }
+   ]
+  },
+  {
+   "chapter_number": 46,
+   "chapter_title": "Animal Reproduction",
+   "question_count": 68,
+   "multiple_choice": 60,
+   "chapter_review": 8,
+   "topics": [
+    {
+     "section": "46.1",
+     "question_count": 13
+    },
+    {
+     "section": "46.2",
+     "question_count": 7
+    },
+    {
+     "section": "46.3",
+     "question_count": 17
+    },
+    {
+     "section": "46.4",
+     "question_count": 11
+    },
+    {
+     "section": "46.5",
+     "question_count": 12
+    },
+    {
+     "section": "chapter_review",
+     "question_count": 8
+    }
+   ]
+  },
+  {
+   "chapter_number": 47,
+   "chapter_title": "Animal Development",
+   "question_count": 70,
+   "multiple_choice": 63,
+   "chapter_review": 7,
+   "topics": [
+    {
+     "section": "47.1",
+     "question_count": 26
+    },
+    {
+     "section": "47.2",
+     "question_count": 25
+    },
+    {
+     "section": "47.3",
+     "question_count": 12
+    },
+    {
+     "section": "chapter_review",
+     "question_count": 7
+    }
+   ]
+  },
+  {
+   "chapter_number": 48,
+   "chapter_title": "Neurons, Synapses, and Signaling",
+   "question_count": 68,
+   "multiple_choice": 62,
+   "chapter_review": 6,
+   "topics": [
+    {
+     "section": "48.1",
+     "question_count": 4
+    },
+    {
+     "section": "48.2",
+     "question_count": 12
+    },
+    {
+     "section": "48.3",
+     "question_count": 25
+    },
+    {
+     "section": "48.4",
+     "question_count": 21
+    },
+    {
+     "section": "chapter_review",
+     "question_count": 6
+    }
+   ]
+  },
+  {
+   "chapter_number": 49,
+   "chapter_title": "Nervous Systems",
+   "question_count": 65,
+   "multiple_choice": 59,
+   "chapter_review": 6,
+   "topics": [
+    {
+     "section": "49.1",
+     "question_count": 18
+    },
+    {
+     "section": "49.2",
+     "question_count": 17
+    },
+    {
+     "section": "49.3",
+     "question_count": 11
+    },
+    {
+     "section": "49.4",
+     "question_count": 8
+    },
+    {
+     "section": "49.5",
+     "question_count": 5
+    },
+    {
+     "section": "chapter_review",
+     "question_count": 6
+    }
+   ]
+  },
+  {
+   "chapter_number": 50,
+   "chapter_title": "Sensory and Motor Mechanisms",
+   "question_count": 67,
+   "multiple_choice": 61,
+   "chapter_review": 6,
+   "topics": [
+    {
+     "section": "50.1",
+     "question_count": 11
+    },
+    {
+     "section": "50.2",
+     "question_count": 11
+    },
+    {
+     "section": "50.3",
+     "question_count": 10
+    },
+    {
+     "section": "50.4",
+     "question_count": 8
+    },
+    {
+     "section": "50.5",
+     "question_count": 16
+    },
+    {
+     "section": "50.6",
+     "question_count": 5
+    },
+    {
+     "section": "chapter_review",
+     "question_count": 6
+    }
+   ]
+  },
+  {
+   "chapter_number": 51,
+   "chapter_title": "Animal Behavior",
+   "question_count": 69,
+   "multiple_choice": 63,
+   "chapter_review": 6,
+   "topics": [
+    {
+     "section": "51.1",
+     "question_count": 22
+    },
+    {
+     "section": "51.2",
+     "question_count": 17
+    },
+    {
+     "section": "51.3",
+     "question_count": 12
+    },
+    {
+     "section": "51.4",
+     "question_count": 12
+    },
+    {
+     "section": "chapter_review",
+     "question_count": 6
+    }
+   ]
+  },
+  {
+   "chapter_number": 52,
+   "chapter_title": "An Introduction to Ecology and the Biosphere",
+   "question_count": 68,
+   "multiple_choice": 60,
+   "chapter_review": 8,
+   "topics": [
+    {
+     "section": "52.1",
+     "question_count": 20
+    },
+    {
+     "section": "52.2",
+     "question_count": 21
+    },
+    {
+     "section": "52.3",
+     "question_count": 12
+    },
+    {
+     "section": "52.4",
+     "question_count": 6
+    },
+    {
+     "section": "52.5",
+     "question_count": 1
+    },
+    {
+     "section": "chapter_review",
+     "question_count": 8
+    }
+   ]
+  },
+  {
+   "chapter_number": 53,
+   "chapter_title": "Population Ecology",
+   "question_count": 69,
+   "multiple_choice": 60,
+   "chapter_review": 9,
+   "topics": [
+    {
+     "section": "53.1",
+     "question_count": 21
+    },
+    {
+     "section": "53.2",
+     "question_count": 8
+    },
+    {
+     "section": "53.3",
+     "question_count": 7
+    },
+    {
+     "section": "53.4",
+     "question_count": 8
+    },
+    {
+     "section": "53.5",
+     "question_count": 8
+    },
+    {
+     "section": "53.6",
+     "question_count": 8
+    },
+    {
+     "section": "chapter_review",
+     "question_count": 9
+    }
+   ]
+  },
+  {
+   "chapter_number": 54,
+   "chapter_title": "Community Ecology",
+   "question_count": 71,
+   "multiple_choice": 63,
+   "chapter_review": 8,
+   "topics": [
+    {
+     "section": "54.1",
+     "question_count": 26
+    },
+    {
+     "section": "54.2",
+     "question_count": 18
+    },
+    {
+     "section": "54.3",
+     "question_count": 5
+    },
+    {
+     "section": "54.4",
+     "question_count": 8
+    },
+    {
+     "section": "54.5",
+     "question_count": 6
+    },
+    {
+     "section": "chapter_review",
+     "question_count": 8
+    }
+   ]
+  },
+  {
+   "chapter_number": 55,
+   "chapter_title": "Ecosystems and Restoration Ecology",
+   "question_count": 68,
+   "multiple_choice": 60,
+   "chapter_review": 8,
+   "topics": [
+    {
+     "section": "55.1",
+     "question_count": 11
+    },
+    {
+     "section": "55.2",
+     "question_count": 19
+    },
+    {
+     "section": "55.3",
+     "question_count": 13
+    },
+    {
+     "section": "55.4",
+     "question_count": 12
+    },
+    {
+     "section": "55.5",
+     "question_count": 5
+    },
+    {
+     "section": "chapter_review",
+     "question_count": 8
+    }
+   ]
+  },
+  {
+   "chapter_number": 56,
+   "chapter_title": "Conservation Biology and Global Change",
+   "question_count": 69,
+   "multiple_choice": 63,
+   "chapter_review": 6,
+   "topics": [
+    {
+     "section": "56.1",
+     "question_count": 18
+    },
+    {
+     "section": "56.2",
+     "question_count": 14
+    },
+    {
+     "section": "56.3",
+     "question_count": 12
+    },
+    {
+     "section": "56.4",
+     "question_count": 16
+    },
+    {
+     "section": "56.5",
+     "question_count": 3
+    },
+    {
+     "section": "chapter_review",
+     "question_count": 6
+    }
+   ]
+  }
+ ]
+}

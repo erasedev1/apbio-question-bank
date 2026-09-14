@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AP Bio Practice</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<main id="setup">
+  <header class="head">
+    <h1>AP Bio Practice</h1>
+    <p class="sub" id="bankline"></p>
+  </header>
+
+  <div class="bar">
+    <input type="search" id="filter" placeholder="Filter chapters" autocomplete="off">
+    <button type="button" class="link" id="all">Select all</button>
+    <button type="button" class="link" id="none">Clear</button>
+  </div>
+
+  <ol class="chapters" id="chapters"></ol>
+
+  <div class="start" id="start">
+    <p class="avail"><strong id="availnum">0</strong> questions selected</p>
+    <label class="num">Ask me
+      <input type="number" id="count" min="1" value="20" inputmode="numeric">
+    </label>
+    <div class="modes" role="radiogroup" aria-label="Feedback mode">
+      <label><input type="radio" name="mode" value="practice" checked> Practice
+        <span>answer is revealed as you go</span></label>
+      <label><input type="radio" name="mode" value="exam"> Exam
+        <span>score at the end</span></label>
+    </div>
+    <button type="button" id="go" disabled>Start</button>
+  </div>
+</main>
+
+<main id="test" hidden>
+  <div class="progress"><div id="pbar"></div></div>
+  <header class="qhead">
+    <span id="pos"></span>
+    <span id="tag"></span>
+    <button type="button" class="link" id="quit">End</button>
+  </header>
+  <div id="figs" class="figs"></div>
+  <p id="stem" class="stem"></p>
+  <div id="choices" class="choices"></div>
+  <footer class="qfoot">
+    <span id="verdict" class="verdict"></span>
+    <button type="button" id="next" disabled>Next</button>
+  </footer>
+</main>
+
+<main id="results" hidden>
+  <header class="head">
+    <h1 id="score"></h1>
+    <p class="sub" id="scoresub"></p>
+  </header>
+  <ol id="review" class="review"></ol>
+  <div class="start">
+    <button type="button" id="again">Back to setup</button>
+  </div>
+</main>
+
+<script src="data/questions.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
