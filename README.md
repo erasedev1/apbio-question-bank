@@ -35,6 +35,29 @@ visit starts clean.
 | `site/data/questions.js` | Site payload, 1.9 MB (449 KB gzipped) |
 | `site/images/` | 492 figures (18 MB) |
 
+### Hosting it on GitHub Pages
+
+`.github/workflows/pages.yml` publishes `site/` to GitHub Pages on every push to
+`main` that touches it, and can be run by hand from the Actions tab. Only `site/`
+is uploaded — the source PDF, `data/` and `scripts/` are not part of the deploy.
+
+To turn it on, once:
+
+1. **Settings → Pages → Build and deployment → Source: GitHub Actions.**
+2. Merge this branch into `main` (or run *Deploy site to GitHub Pages* from the
+   Actions tab with **Run workflow**).
+
+The site then lives at `https://<user>.github.io/apbio-question-bank/`. Every path
+in the site is relative, so it works unchanged under that subdirectory; `.nojekyll`
+keeps Pages from running the files through Jekyll.
+
+> **Two caveats, given the source material.** GitHub Pages sites are **public** —
+> anyone with the URL can read them, even when the repository is private, unless
+> you are on GitHub Enterprise Cloud with access control enabled. And Pages from a
+> private repository requires GitHub Pro or higher; on the Free plan the repository
+> has to be public before Pages will publish. Publishing puts 3,707 questions and
+> 492 figures from a © 2017 Pearson test bank on the open web under your account.
+
 ## The dataset
 
 | Path | Description |
